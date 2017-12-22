@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273D6D111FECE081001A3120 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D6D101FECE081001A3120 /* AppDelegate.m */; };
+		273D6D141FECE081001A3120 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D6D131FECE081001A3120 /* ViewController.m */; };
+		273D6D171FECE081001A3120 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273D6D151FECE081001A3120 /* Main.storyboard */; };
+		273D6D191FECE081001A3120 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273D6D181FECE081001A3120 /* Assets.xcassets */; };
+		273D6D1C1FECE081001A3120 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273D6D1A1FECE081001A3120 /* LaunchScreen.storyboard */; };
+		273D6D1F1FECE081001A3120 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D6D1E1FECE081001A3120 /* main.m */; };
+		273D6D291FECE081001A3120 /* PainKARE_TXBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D6D281FECE081001A3120 /* PainKARE_TXBTests.m */; };
+		273D6D341FECE081001A3120 /* PainKARE_TXBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273D6D331FECE081001A3120 /* PainKARE_TXBUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273D6D251FECE081001A3120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273D6D041FECE080001A3120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273D6D0B1FECE080001A3120;
+			remoteInfo = "PainKARE-TXB";
+		};
+		273D6D301FECE081001A3120 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273D6D041FECE080001A3120 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273D6D0B1FECE080001A3120;
+			remoteInfo = "PainKARE-TXB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273D6D0C1FECE080001A3120 /* PainKARE-TXB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PainKARE-TXB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273D6D0F1FECE081001A3120 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		273D6D101FECE081001A3120 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		273D6D121FECE081001A3120 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		273D6D131FECE081001A3120 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		273D6D161FECE081001A3120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		273D6D181FECE081001A3120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273D6D1B1FECE081001A3120 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		273D6D1D1FECE081001A3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273D6D1E1FECE081001A3120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		273D6D241FECE081001A3120 /* PainKARE-TXBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PainKARE-TXBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273D6D281FECE081001A3120 /* PainKARE_TXBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainKARE_TXBTests.m; sourceTree = "<group>"; };
+		273D6D2A1FECE081001A3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273D6D2F1FECE081001A3120 /* PainKARE-TXBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PainKARE-TXBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273D6D331FECE081001A3120 /* PainKARE_TXBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainKARE_TXBUITests.m; sourceTree = "<group>"; };
+		273D6D351FECE081001A3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273D6D091FECE080001A3120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D211FECE081001A3120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D2C1FECE081001A3120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273D6D031FECE080001A3120 = {
+			isa = PBXGroup;
+			children = (
+				273D6D0E1FECE080001A3120 /* PainKARE-TXB */,
+				273D6D271FECE081001A3120 /* PainKARE-TXBTests */,
+				273D6D321FECE081001A3120 /* PainKARE-TXBUITests */,
+				273D6D0D1FECE080001A3120 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		273D6D0D1FECE080001A3120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273D6D0C1FECE080001A3120 /* PainKARE-TXB.app */,
+				273D6D241FECE081001A3120 /* PainKARE-TXBTests.xctest */,
+				273D6D2F1FECE081001A3120 /* PainKARE-TXBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273D6D0E1FECE080001A3120 /* PainKARE-TXB */ = {
+			isa = PBXGroup;
+			children = (
+				273D6D0F1FECE081001A3120 /* AppDelegate.h */,
+				273D6D101FECE081001A3120 /* AppDelegate.m */,
+				273D6D121FECE081001A3120 /* ViewController.h */,
+				273D6D131FECE081001A3120 /* ViewController.m */,
+				273D6D151FECE081001A3120 /* Main.storyboard */,
+				273D6D181FECE081001A3120 /* Assets.xcassets */,
+				273D6D1A1FECE081001A3120 /* LaunchScreen.storyboard */,
+				273D6D1D1FECE081001A3120 /* Info.plist */,
+				273D6D1E1FECE081001A3120 /* main.m */,
+			);
+			path = "PainKARE-TXB";
+			sourceTree = "<group>";
+		};
+		273D6D271FECE081001A3120 /* PainKARE-TXBTests */ = {
+			isa = PBXGroup;
+			children = (
+				273D6D281FECE081001A3120 /* PainKARE_TXBTests.m */,
+				273D6D2A1FECE081001A3120 /* Info.plist */,
+			);
+			path = "PainKARE-TXBTests";
+			sourceTree = "<group>";
+		};
+		273D6D321FECE081001A3120 /* PainKARE-TXBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				273D6D331FECE081001A3120 /* PainKARE_TXBUITests.m */,
+				273D6D351FECE081001A3120 /* Info.plist */,
+			);
+			path = "PainKARE-TXBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273D6D0B1FECE080001A3120 /* PainKARE-TXB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273D6D381FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXB" */;
+			buildPhases = (
+				273D6D081FECE080001A3120 /* Sources */,
+				273D6D091FECE080001A3120 /* Frameworks */,
+				273D6D0A1FECE080001A3120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PainKARE-TXB";
+			productName = "PainKARE-TXB";
+			productReference = 273D6D0C1FECE080001A3120 /* PainKARE-TXB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273D6D231FECE081001A3120 /* PainKARE-TXBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273D6D3B1FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXBTests" */;
+			buildPhases = (
+				273D6D201FECE081001A3120 /* Sources */,
+				273D6D211FECE081001A3120 /* Frameworks */,
+				273D6D221FECE081001A3120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273D6D261FECE081001A3120 /* PBXTargetDependency */,
+			);
+			name = "PainKARE-TXBTests";
+			productName = "PainKARE-TXBTests";
+			productReference = 273D6D241FECE081001A3120 /* PainKARE-TXBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		273D6D2E1FECE081001A3120 /* PainKARE-TXBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273D6D3E1FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXBUITests" */;
+			buildPhases = (
+				273D6D2B1FECE081001A3120 /* Sources */,
+				273D6D2C1FECE081001A3120 /* Frameworks */,
+				273D6D2D1FECE081001A3120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273D6D311FECE081001A3120 /* PBXTargetDependency */,
+			);
+			name = "PainKARE-TXBUITests";
+			productName = "PainKARE-TXBUITests";
+			productReference = 273D6D2F1FECE081001A3120 /* PainKARE-TXBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273D6D041FECE080001A3120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Anan;
+				TargetAttributes = {
+					273D6D0B1FECE080001A3120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					273D6D231FECE081001A3120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273D6D0B1FECE080001A3120;
+					};
+					273D6D2E1FECE081001A3120 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273D6D0B1FECE080001A3120;
+					};
+				};
+			};
+			buildConfigurationList = 273D6D071FECE080001A3120 /* Build configuration list for PBXProject "PainKARE-TXB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 273D6D031FECE080001A3120;
+			productRefGroup = 273D6D0D1FECE080001A3120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273D6D0B1FECE080001A3120 /* PainKARE-TXB */,
+				273D6D231FECE081001A3120 /* PainKARE-TXBTests */,
+				273D6D2E1FECE081001A3120 /* PainKARE-TXBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273D6D0A1FECE080001A3120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273D6D1C1FECE081001A3120 /* LaunchScreen.storyboard in Resources */,
+				273D6D191FECE081001A3120 /* Assets.xcassets in Resources */,
+				273D6D171FECE081001A3120 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D221FECE081001A3120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D2D1FECE081001A3120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273D6D081FECE080001A3120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273D6D141FECE081001A3120 /* ViewController.m in Sources */,
+				273D6D1F1FECE081001A3120 /* main.m in Sources */,
+				273D6D111FECE081001A3120 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D201FECE081001A3120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273D6D291FECE081001A3120 /* PainKARE_TXBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273D6D2B1FECE081001A3120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273D6D341FECE081001A3120 /* PainKARE_TXBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273D6D261FECE081001A3120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273D6D0B1FECE080001A3120 /* PainKARE-TXB */;
+			targetProxy = 273D6D251FECE081001A3120 /* PBXContainerItemProxy */;
+		};
+		273D6D311FECE081001A3120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273D6D0B1FECE080001A3120 /* PainKARE-TXB */;
+			targetProxy = 273D6D301FECE081001A3120 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		273D6D151FECE081001A3120 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273D6D161FECE081001A3120 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		273D6D1A1FECE081001A3120 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273D6D1B1FECE081001A3120 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273D6D361FECE081001A3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		273D6D371FECE081001A3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273D6D391FECE081001A3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		273D6D3A1FECE081001A3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		273D6D3C1FECE081001A3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainKARE-TXB.app/PainKARE-TXB";
+			};
+			name = Debug;
+		};
+		273D6D3D1FECE081001A3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PainKARE-TXB.app/PainKARE-TXB";
+			};
+			name = Release;
+		};
+		273D6D3F1FECE081001A3120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PainKARE-TXB";
+			};
+			name = Debug;
+		};
+		273D6D401FECE081001A3120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7752QS5HZ6;
+				INFOPLIST_FILE = "PainKARE-TXBUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anan.PainKARE-TXBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PainKARE-TXB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273D6D071FECE080001A3120 /* Build configuration list for PBXProject "PainKARE-TXB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273D6D361FECE081001A3120 /* Debug */,
+				273D6D371FECE081001A3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273D6D381FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273D6D391FECE081001A3120 /* Debug */,
+				273D6D3A1FECE081001A3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273D6D3B1FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273D6D3C1FECE081001A3120 /* Debug */,
+				273D6D3D1FECE081001A3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273D6D3E1FECE081001A3120 /* Build configuration list for PBXNativeTarget "PainKARE-TXBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273D6D3F1FECE081001A3120 /* Debug */,
+				273D6D401FECE081001A3120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273D6D041FECE080001A3120 /* Project object */;
+}
