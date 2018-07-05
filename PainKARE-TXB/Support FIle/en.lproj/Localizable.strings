@@ -1,0 +1,217 @@
+/* 
+  Localizable.strings
+  PainKARE-TXB
+
+  Created by Anan on 2017/12/22.
+  Copyright © 2017年 Anan. All rights reserved.
+*/
+
+
+// ———————————————————— 全局 ————————————————————————————————————————
+
+"AppNavWebTabbarTitle" = "Home";
+"AppNavTreatmentTabbarTitle" = "Treatment";
+"AppNavMineTabbarTitle" = "Mine";
+
+"AppDelegate_AlertControllerTitle1" ="Bluetooth is not on.";
+"AppDelegate_AlertControllerMessage1" ="Please turn it on in “Settings”-“Bluetooth”";
+"AppDelegate_AlertControllerLeftButton1" ="Setting";
+"AppDelegate_AlertControllerRightButton1" ="Cancel";
+
+"AppDelegate_SelectTitle" = "Device";
+"AppDelegate_Research" = "Refresh";
+
+"AppDelegate_R0501NoticeString" = "The electrode is not attached to your skin!";
+"AppDelegate_R0501NoticeOK" = "Confirm";
+"AppDelegate_LowBatteryNoticeString" = "Battery Low！";
+"AppDelegate_LowBatteryNoticeOK" = "Confirm";
+
+"AppDelegate_EndSuccess" = "Congratulations! Nursing is completed!";
+"AppDelegate_EndText1" = "Your rate for this treatment:";
+"AppDelegate_EndText2" = "Your suggestion:";
+"AppDelegate_EndText3" = "Only with your feedback, will PainKARE be better and more suitable for you.";
+"AppDelegate_EndText4" = "words";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 主页 ————————————————————————————————————————
+
+"webNavigationTitle" = "PainKARE";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理 ————————————————————————————————————————
+
+"treatmentNavigationTitle" = "PainKARE";
+"treatmentConnectStyle-Connected" = "Connected";
+"treatmentConnectStyle-Disconnected" = "Disconnected";
+"treatmentBatteryPower" = "Battery";
+"treatmentPercentSign" = "%";
+"treatmentPhaseLabel" = "PainIndex";
+"treatmentDurationLabel" = "Time:";
+"treatmentMinuteLabel" = "Min";
+"treatmentMoreInformation" = "Details";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-详细信息 ————————————————————————————————————————
+
+"treatment_DetailNavigationTitle" = "Detail";
+"treatment_DetailMinute" = "Min";
+"treatment_DetailMonitorData" = "";//监测数据
+"treatment_DetailResistance" = "Resistance";
+"treatment_DetailReactance" = "CellViability";
+"treatment_DetailPhase" = "PainIndex";
+"treatment_DetailNumber" = "No";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-部位选择 ————————————————————————————————————————
+
+"treatment_PositionNavigationTitle" = "PositionAttached";
+"treatment_PositionIndications" = "Suitable for：";
+"treatment_PositionProposal" = "PositionPorosal：";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-部位选择-贴放部位 ————————————————————————————————————————
+
+"treatment_Position_PlacementIndications" = "Suitable for：";
+"treatment_Position_PlacementTipI" = "Blue spot for device, red for battery and others. Clean your skin before node-attach.";
+"treatment_Position_PlacementTipII" = "*Tip: Blue spot for device when used alone";
+"treatment_Position_PlacementMethod" = "Placement";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的 ————————————————————————————————————————
+
+"mineNavigationTitle" = "Mine";
+"mineBuzzerShowError" = "Please attach nodes";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-疼痛分析 ————————————————————————————————————————
+
+"mine_TreatmentLogNavigationTitle" = "TreatmentAnalysis";
+"mine_TreatmentLogSelectThreeTimes" = "3";
+"mine_TreatmentLogSelectSevenTimes" = "7";
+"mine_TreatmentLogSelectOneWeek" = "Week";
+"mine_TreatmentLogSelectOneMonth" = "Month";
+"mine_TreatmentLogAnalysisResultI" = "Better when index is rising";
+"mine_TreatmentLogFrequency" = "Time";
+
+"mine_TreatmentLogStartTime" = "StartTime:";
+"mine_TreatmentLogDuration" = "Duration";
+"mine_TreatmentLogMinute" = "Min";
+"mine_TreatmentLogPhase" = "Index:";
+
+// ——————————————————————————————————————————————————————————————————
+// ———————————————————— 我的-疼痛分析-分析报告 ————————————————————————————————————————
+
+"mine_TreatmentLog_ResultNavigationTitle" = "Analysis";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-疼痛分析-分析详情 ————————————————————————————————————————
+
+"mine_TreatmentLog_DetailNavigationTitle" = "Analysis Details";
+"mine_TreatmentLog_DetailNumber" = "No.";
+"mine_TreatmentLog_DetailMinute" = "Min";
+"mine_TreatmentLog_DetailResistance" = "Resistance";
+"mine_TreatmentLog_DetailReactance" = "Reactance";
+"mine_TreatmentLog_DetailPhase" = "Index";
+"mine_TreatmentLog_DetailPosition" = "Position";
+"mine_TreatmentLog_DetailDuration" = "Duration";
+"mine_TreatmentLog_DetailStartTime" = "StartTime";
+"mine_TreatmentLog_DetailPlacement" = "Placement";
+"mine_TreatmentLog_Detail2001" = "Neck";
+"mine_TreatmentLog_Detail2002" = "Shoulder";
+"mine_TreatmentLog_Detail2013" = "Arm";
+"mine_TreatmentLog_Detail2003" = "Elbow";
+"mine_TreatmentLog_Detail2008" = "Back";
+"mine_TreatmentLog_Detail2009" = "Leg";
+"mine_TreatmentLog_Detail2010" = "Knee";
+"mine_TreatmentLog_Detail2011" = "Ankle";
+"mine_TreatmentLog_Detail2012" = "Feet";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-我的资料 ————————————————————————————————————————
+
+"mine_ProfileNavigationTitle" = "Profile";
+"mine_ProfileHeight" = "Height";
+"mine_ProfileWeight" = "Weight";
+"mine_ProfileRace" = "Race";
+"mine_ProfileAge" = "Age";
+"mine_ProfileGender" = "Gender";
+"mine_ProfilePacemaker" = "Pacemaker";
+"mine_ProfileBloodType" = "Bloodtype";
+"mine_ProfilePhone" = "Phone";
+"mine_ProfileMail" = "E-mail";
+"mine_ProfileHealth" = "Health";
+"mine_ProfileChoose" = "Choose";
+"mine_ProfileEnter" = "Enter";
+"mine_ProfileCancel" = "Cancel";
+"mine_ProfileDone" = "Done";
+"mine_ProfileLeftSelectedLabel" = "Yes";
+"mine_ProfileRightSelectedLabel" = "No";
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-声音报警设置 ————————————————————————————————————————
+
+"mine_BuzzerNavigationTitle" = "Alarm setting";
+"mine_BuzzerErrorTitle" = "Error alarm";
+"mine_BuzzerErrorTip" = "3 alarms per minutes in Error";
+"mine_BuzzerWorkingTitle" = "Buzzer Working Sign";
+"mine_BuzzerWorkingTip" = "1 alarm per minute in Normal";
+"mine_BuzzerNotice" = "Note: Alarm will consume more power.";
+"mine_BuzzerShowError" = "Please Connect deivce!";
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-连接设备指南 ————————————————————————————————————————
+"mine_ConnectGuideGeneralTitle" = "User Guide";
+"mine_ConnectGuideGeneralText" = "It's recommended to follow the first method for better performance!";
+"mine_ConnectGuideConnectAction1" = "First method:";
+"mine_ConnectGuideConnectAction2" = "Second method:";
+"mine_ConnectGuideNotice0" = "* Note";
+"mine_ConnectGuideNotice1" = "① Hold power key for 3 seconds to turn on device";
+"mine_ConnectGuideNotice2" = "② Light is green in normal condition";
+"mine_ConnectGuideNotice3" = "③ Light is red when battery is low";
+
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-关于 ————————————————————————————————————————
+
+"mine_AboutNavigationTitle" = "About";
+"mine_AboutGroupCopyright" = "Aceme Hangzhou";
+"mine_AboutContact" = "Contact us";
+"mine_AboutEmail-Left" = "E-mail:";
+"mine_AboutEmail-Right" = "support@aceme-medical.com";
+"mine_AboutWebsite-Left" = "Website:";
+"mine_AboutWebsite-Right" = "www.aceme-medical.com";
+"mine_AboutAppVersion" = "APP Version";
+"mine_AboutDeviceVersion" = "Device Version";
+"mine_AboutDeviceID" = "ProductID";
+"mine_AboutSoftwareVersion" = "SoftwareVersion";
+
+// ——————————————————————————————————————————————————————————————————
+
+//———————————————————————个人资料选项————————————————————————————————————
+"Profile_Race_Choice1" = "White";
+"Profile_Race_Choice2" = "Spain";
+"Profile_Race_Choice3" = "Asia";
+"Profile_Race_Choice4" = "Aframerican";
+"Profile_Race_Choice5" = "Others";
+
+
+"Profile_Age_Choice1" = "4-14";
+"Profile_Age_Choice2" = "15-22";
+"Profile_Age_Choice3" = "23-39";
+"Profile_Age_Choice4" = "40-55";
+"Profile_Age_Choice5" = "Above55";
+
+"Profile_Gender_Choice1" = "Male";
+"Profile_Gender_Choice2" = "Female";

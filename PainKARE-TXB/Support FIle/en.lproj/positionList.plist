@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Neck</string>
+		<key>id</key>
+		<string>2001</string>
+		<key>image</key>
+		<string>neck</string>
+		<key>indications</key>
+		<string>Stiff &amp; pain</string>
+		<key>proposal</key>
+		<string>3-4h/day, clense neck with hot towel</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Shoulder</string>
+		<key>id</key>
+		<string>2002</string>
+		<key>image</key>
+		<string>shoulder</string>
+		<key>indications</key>
+		<string>Shoulder periarthritis</string>
+		<key>proposal</key>
+		<string>Avoid overwork and 4h/day to help relieve pain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Arm</string>
+		<key>id</key>
+		<string>2013</string>
+		<key>image</key>
+		<string>arm</string>
+		<key>indications</key>
+		<string>Sore arm</string>
+		<key>proposal</key>
+		<string>Avoid heavy lifting, 1-2h/day to improve condition</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Elbow</string>
+		<key>id</key>
+		<string>2003</string>
+		<key>image</key>
+		<string>elbow</string>
+		<key>indications</key>
+		<string>Tennis elbow &amp; pain</string>
+		<key>proposal</key>
+		<string>Reduce elbow strain, 1-2h/day for 3 days</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Back</string>
+		<key>id</key>
+		<string>2008</string>
+		<key>image</key>
+		<string>lowerback</string>
+		<key>indications</key>
+		<string>Lumbar muscle strain</string>
+		<key>proposal</key>
+		<string>2h/day for 3 days to ease pain. Medical treatment is needed for severe symptoms.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Leg</string>
+		<key>id</key>
+		<string>2009</string>
+		<key>image</key>
+		<string>legs</string>
+		<key>indications</key>
+		<string>sciatica &amp; pain</string>
+		<key>proposal</key>
+		<string>4h/day</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Knee</string>
+		<key>id</key>
+		<string>2010</string>
+		<key>image</key>
+		<string>knee</string>
+		<key>indications</key>
+		<string>gonarthritis</string>
+		<key>proposal</key>
+		<string>MInimum exercise and 4h/day to relieve pain</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ankle</string>
+		<key>id</key>
+		<string>2011</string>
+		<key>image</key>
+		<string>ankle</string>
+		<key>indications</key>
+		<string>Tenosynovitis &amp; sprain</string>
+		<key>proposal</key>
+		<string>Minimum walking, 1-2h/day for 7-10 days</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Feet</string>
+		<key>id</key>
+		<string>2012</string>
+		<key>image</key>
+		<string>foot</string>
+		<key>indications</key>
+		<string>Pain</string>
+		<key>proposal</key>
+		<string>Less exercise, 1-2h/day for 7-10 days</string>
+	</dict>
+</array>
+</plist>

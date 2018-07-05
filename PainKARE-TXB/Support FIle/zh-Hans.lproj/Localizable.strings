@@ -1,0 +1,219 @@
+/* 
+  Localizable.strings
+  PainKARE-TXB
+
+  Created by Anan on 2017/12/22.
+  Copyright © 2017年 Anan. All rights reserved.
+*/
+
+
+// ———————————————————— 全局 ————————————————————————————————————————
+
+"AppNavWebTabbarTitle" = "主页";
+"AppNavTreatmentTabbarTitle" = "护理";
+"AppNavMineTabbarTitle" = "我的";
+
+"AppDelegate_AlertControllerTitle1" ="手机蓝牙未开启";
+"AppDelegate_AlertControllerMessage1" ="请在IOS“设置”-“蓝牙”中打开";
+"AppDelegate_AlertControllerLeftButton1" ="设置";
+"AppDelegate_AlertControllerRightButton1" ="取消";
+
+"AppDelegate_SelectTitle" = "选取设备";
+"AppDelegate_Research" = "刷新";
+
+"AppDelegate_R0501NoticeString" = "电极片没有贴紧，请将电极片贴紧!";
+"AppDelegate_R0501NoticeOK" = "确认";
+"AppDelegate_LowBatteryNoticeString" = "电池电量低，请先充电！";
+"AppDelegate_LowBatteryNoticeOK" = "确认";
+
+"AppDelegate_EndSuccess" = "恭喜您护理结束！";
+"AppDelegate_EndText1" = "您对本次护理效果的评价：";
+"AppDelegate_EndText2" = "建议内容：";
+"AppDelegate_EndText3" = "有了您的意见，痛小白才能变得更加完美，在这里留下您的宝贵意见吧！";
+"AppDelegate_EndText4" = "字";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 主页 ————————————————————————————————————————
+
+"webNavigationTitle" = "疼痛管家";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理 ————————————————————————————————————————
+
+"treatmentNavigationTitle" = "疼痛管家";
+"treatmentConnectStyle-Connected" = "已连接";
+"treatmentConnectStyle-Disconnected" = "未连接";
+"treatmentBatteryPower" = "电量";
+"treatmentPercentSign" = "%";
+"treatmentPhaseLabel" = "疼痛指数";
+"treatmentDurationLabel" = "时长：";
+"treatmentMinuteLabel" = "分钟";
+"treatmentMoreInformation" = "查看详细信息";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-详细信息 ————————————————————————————————————————
+
+"treatment_DetailNavigationTitle" = "详细信息";
+"treatment_DetailMinute" = "分钟";
+"treatment_DetailMonitorData" = "监测数据";
+"treatment_DetailResistance" = "血流阻力";
+"treatment_DetailReactance" = "细胞活性";
+"treatment_DetailPhase" = "疼痛指数";
+"treatment_DetailNumber" = "第";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-部位选择 ————————————————————————————————————————
+
+"treatment_PositionNavigationTitle" = "部位选择";
+"treatment_PositionIndications" = "适应症：";
+"treatment_PositionProposal" = "方案建议：";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 护理-部位选择-贴放部位 ————————————————————————————————————————
+
+"treatment_Position_PlacementIndications" = "适应症：";
+"treatment_Position_PlacementTipI" = "蓝色是设备主机的位置，红色是电极线扣的位置；贴放电极片之前先用湿润毛巾擦拭皮肤。";
+"treatment_Position_PlacementTipII" = "* 注意： 单独使用设备主机时，电极片贴在上图中的蓝色位置或疼痛部位两侧。";
+"treatment_Position_PlacementMethod" = "贴法";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的 ————————————————————————————————————————
+
+"mineNavigationTitle" = "我的";
+"mineBuzzerShowError" = "请连接设备";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-疼痛分析 ————————————————————————————————————————
+
+"mine_TreatmentLogNavigationTitle" = "疼痛分析";
+"mine_TreatmentLogSelectThreeTimes" = "最近3次";
+"mine_TreatmentLogSelectSevenTimes" = "最近7次";
+"mine_TreatmentLogSelectOneWeek" = "最近1周";
+"mine_TreatmentLogSelectOneMonth" = "最近1月";
+"mine_TreatmentLogAnalysisResultI" = "趋势上升，代表疼痛好转";
+"mine_TreatmentLogFrequency" = "次";
+
+"mine_TreatmentLogStartTime" = "开始时间：";
+"mine_TreatmentLogDuration" = "护理时间：";
+"mine_TreatmentLogMinute" = "分钟";
+"mine_TreatmentLogPhase" = "疼痛指数：";
+
+// ——————————————————————————————————————————————————————————————————
+// ———————————————————— 我的-疼痛分析-分析报告 ————————————————————————————————————————
+
+"mine_TreatmentLog_ResultNavigationTitle" = "报告解读";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-疼痛分析-分析详情 ————————————————————————————————————————
+
+"mine_TreatmentLog_DetailNavigationTitle" = "分析详情";
+"mine_TreatmentLog_DetailNumber" = "第";
+"mine_TreatmentLog_DetailMinute" = "分钟";
+"mine_TreatmentLog_DetailResistance" = "血流阻力";
+"mine_TreatmentLog_DetailReactance" = "细胞活性";
+"mine_TreatmentLog_DetailPhase" = "疼痛指数";
+"mine_TreatmentLog_DetailPosition" = "护理部位";
+"mine_TreatmentLog_DetailDuration" = "护理时间";
+"mine_TreatmentLog_DetailStartTime" = "开始时间";
+"mine_TreatmentLog_DetailPlacement" = "贴放位置";
+"mine_TreatmentLog_Detail2001" = "颈部";
+"mine_TreatmentLog_Detail2002" = "肩部";
+"mine_TreatmentLog_Detail2013" = "手臂";
+"mine_TreatmentLog_Detail2003" = "肘部";
+"mine_TreatmentLog_Detail2008" = "腰背部";
+"mine_TreatmentLog_Detail2009" = "腿部";
+"mine_TreatmentLog_Detail2010" = "膝关节";
+"mine_TreatmentLog_Detail2011" = "踝关节";
+"mine_TreatmentLog_Detail2012" = "脚";
+
+// ——————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-我的资料 ————————————————————————————————————————
+
+"mine_ProfileNavigationTitle" = "我的资料";
+"mine_ProfileHeight" = "身高（cm）";
+"mine_ProfileWeight" = "体重（kg）";
+"mine_ProfileRace" = "种族";
+"mine_ProfileAge" = "年龄组";
+"mine_ProfileGender" = "性别";
+"mine_ProfilePacemaker" = "心脏起搏器";
+"mine_ProfileBloodType" = "血型";
+"mine_ProfilePhone" = "电话";
+"mine_ProfileMail" = "邮箱";
+"mine_ProfileHealth" = "健康状况";
+"mine_ProfileChoose" = "请选择";
+"mine_ProfileEnter" = "请输入";
+"mine_ProfileCancel" = "取消";
+"mine_ProfileDone" = "完成";
+"mine_ProfileLeftSelectedLabel" = "有";
+"mine_ProfileRightSelectedLabel" = "无";
+
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-声音报警设置 ————————————————————————————————————————
+
+"mine_BuzzerNavigationTitle" = "声音报警设置";
+"mine_BuzzerErrorTitle" = "出错报警 ";
+"mine_BuzzerErrorTip" = "开启后，如果设备工作出错，每分钟短“嘀”三声";
+"mine_BuzzerWorkingTitle" = "工作状态提示 ";
+"mine_BuzzerWorkingTip" = "开启后，如果设备工作正常，每一分钟短“嘀”一声";
+"mine_BuzzerNotice" = "注意：启用声音报警会消耗电量，可能影响治疗周期";
+"mine_BuzzerShowError" = "请连接设备";
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-连接设备指南 ————————————————————————————————————————
+"mine_ConnectGuideGeneralTitle" = "设备连接方法";
+"mine_ConnectGuideGeneralText" = "强烈推荐连接方法一，设备主机结合插件一起使用，护理效果更佳!";
+"mine_ConnectGuideConnectAction1" = "连接方法一：";
+"mine_ConnectGuideConnectAction2" = "连接方法二：";
+"mine_ConnectGuideNotice0" = "* 注意：";
+"mine_ConnectGuideNotice1" = "① 长按开关键3秒开机";
+"mine_ConnectGuideNotice2" = "② 正常情况下，开机指示灯为绿色";
+"mine_ConnectGuideNotice3" = "③ 电池低电量时，开机指示灯为红色";
+
+
+// ————————————————————————————————————————————————————————————————————————————————
+
+// ———————————————————— 我的-关于 ————————————————————————————————————————
+
+"mine_AboutNavigationTitle" = "关于";
+"mine_AboutGroupCopyright" = "杭州爱司米 版权所有";
+"mine_AboutContact" = "联系我们";
+"mine_AboutEmail-Left" = "公司邮箱：";
+"mine_AboutEmail-Right" = "support@aceme-medical.com";
+"mine_AboutWebsite-Left" = "公司网址：";
+"mine_AboutWebsite-Right" = "www.aceme-medical.com";
+"mine_AboutAppVersion" = "APP版本";
+"mine_AboutDeviceVersion" = "设备版本";
+"mine_AboutDeviceID" = "产品ID";
+"mine_AboutSoftwareVersion" = "软件版本";
+
+// ———————————————————————————————————————————————————————————————————
+
+
+//———————————————————————个人资料选项————————————————————————————————————
+"Profile_Race_Choice1" = "白种人";
+"Profile_Race_Choice2" = "西班牙人";
+"Profile_Race_Choice3" = "亚洲人";
+"Profile_Race_Choice4" = "美国黑人";
+"Profile_Race_Choice4" = "其他种族";
+
+
+"Profile_Age_Choice1" = "4-14岁";
+"Profile_Age_Choice2" = "15-22岁";
+"Profile_Age_Choice3" = "23-39岁";
+"Profile_Age_Choice4" = "40-55岁";
+"Profile_Age_Choice5" = "55岁以上";
+
+"Profile_Gender_Choice1" = "男人";
+"Profile_Gender_Choice2" = "女人";

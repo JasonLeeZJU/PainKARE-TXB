@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>treatmentLog</string>
+			<key>label_Text</key>
+			<string>TreatmentAnalysis</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>profile</string>
+			<key>label_Text</key>
+			<string>Profile</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>buzzer</string>
+			<key>label_Text</key>
+			<string>Alarm</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>connectGuide</string>
+			<key>label_Text</key>
+			<string>ConnectGuide</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>about</string>
+			<key>label_Text</key>
+			<string>About</string>
+		</dict>
+	</array>
+</array>
+</plist>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+                <meta name="format-detection" content="telephone=no">
+                    <title>痛小白H5首页</title>
+                    <!-- <script type="text/javascript" src="http://tajs.qq.com/stats?sId=37342703" charset="UTF-8"></script> -->
+                    <link rel="stylesheet" href="css/frozen.css">
+                        <link rel="stylesheet" href="css/demo.css">
+                            <link rel="stylesheet" href="demo.css">
+                                <script src="js/zepto_min.js"></script>
+                                <script src="js/frozen.js"></script>
+                                <style>
+                                    #divcss5{ margin:0 auto; overflow:hidden;}
+                                    ul,li{ list-style:none}
+                                    .dis{ display:block}
+                                    .undis{ display:none}
+                                    </style>
+    </head>
+    
+    <body ontouchstart>
+        <!-- <header class="ui-header ui-header-positive ui-border-b">
+         <i class="ui-icon-return" onclick="history.back()"></i>
+         <h1>痛小白</h1>
+         <!-- <button class="ui-btn">回首页</button> -->
+        <!-- </header> -->
+        <section id="divcss5" class="ui-container">
+            <section id="slider">
+                <div class="demo-item">
+                    <!-- <p class="demo-desc">轮播组件</p> -->
+                    <div class="demo-block">
+                        <div class="ui-slider">
+                            <ul class="ui-slider-content" style="width: 300%">
+                                <li><span style="background-image:url(images/topImage001.png)"></span></li>
+                                <li><span style="background-image:url(images/topImage002.png)"></span></li>
+                                <li><span style="background-image:url(images/topImage003.png)"></span></li>
+                                <li><span style="background-image:url(images/topImage004.png)"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script class="demo-script">
+                        (function() {
+                         var slider = new fz.Scroll('.ui-slider', {
+                                                    role: 'slider',
+                                                    indicator: true,
+                                                    autoplay: true,
+                                                    interval: 3000
+                                                    });
+                         
+                         slider.on('beforeScrollStart', function(fromIndex, toIndex) {
+                                   console.log(fromIndex, toIndex)
+                                   });
+                         
+                         slider.on('scrollEnd', function(cruPage) {
+                                   console.log(cruPage)
+                                   });
+                         })();
+                        </script>
+                    <script>
+                        function doClick(o){
+                            o.className="nav_current";
+                            var j;
+                            var id;
+                            var e;
+                            for(var i=1;i<=3;i++){ //这里3 需要你修改 你多少条分类 就是多少
+                                id ="nav"+i;
+                                j = document.getElementById(id);
+                                e = document.getElementById("sub"+i);
+                                if(id != o.id){
+                                    j.className="nav_link";
+                                    e.style.display = "none";
+                                }else{
+                                    e.style.display = "block";
+                                }
+                            }
+                        }
+                    </script>
+                </div>
+            </section>
+            <section class="mod-privilege ui-border-b">
+                <!-- 会员看到的 -->
+                <div class="mod-list-privilege">
+                    <ul style="width:100%">
+                        <li><img class="nav_link" id="nav1" onclick="javascript:doClick(this)" src="http://i.gtimg.cn/vipstyle/mobile/client/vipzone/v2/pic/privilege/speaker.png"><span>资讯</span></li>
+                        <li><img class="nav_link" id="nav2" onclick="javascript:doClick(this)" src="http://i.gtimg.cn/vipstyle/mobile/client/vipzone/v2/pic/privilege/attention.png"><span>解读</span></li>
+                        <li><img class="nav_link" id="nav3" onclick="javascript:doClick(this)" src="http://i.gtimg.cn/vipstyle/mobile/client/vipzone/v2/pic/privilege/group.png"><span>案例</span></li>
+                    </ul>
+                </div>
+                <!--end-->
+            </section>
+            
+            <div class="nav-down">
+                <div id="sub1" class="demo-item dis">
+                    <div class="demo-block">
+                        <ul class="ui-list ui-border-tb">
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info1_1.html'">
+                                <div class="ui-avatar" >
+                                    <span style="background-image:url(images/image001.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">办公室症候群：常见8大慢性疼痛</h4>
+                                    <p class="ui-nowrap">PainKARE，慢性疼痛克星！</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info1_2.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image005.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">关节咔咔响，很可能是病</h4>
+                                    <p class="ui-nowrap">你有没有遇到过这种情况：...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info1_3.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image008.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">那些加速膝关节退化的动作，很多人竟然天天做，太可怕了！</h4>
+                                    <p class="ui-nowrap">40岁之后，很多人就会开始出现膝盖疼的情况了...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info1_4.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image015.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">你的痛，我最懂</h4>
+                                    <p class="ui-nowrap">在医院门诊部，有一个存在感极低的科室...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info1_5.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image025.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">疼痛就用痛小白</h4>
+                                    <p class="ui-nowrap">美国生物电新技术，疼痛无助时的选择...</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="sub2" class="demo-item undis">
+                    <div class="demo-block">
+                        <ul class="ui-list ui-border-tb">
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_1.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image031.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">如何达到更佳护理效果</h4>
+                                    <p class="ui-nowrap">一、配合插件使用...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_2.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image034.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">生物阻抗与肌肉疼痛的关系</h4>
+                                    <p class="ui-nowrap">局部生物阻抗分析（LBA）是一种新颖的、非侵入性...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_3.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image035.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">疼痛数据分析报告的解读</h4>
+                                    <p class="ui-nowrap">理论上，当疼痛指数（PA）、血流阻力（R）和细胞活性...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_4.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image038.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">疼痛智能管家使用小知识</h4>
+                                    <p class="ui-nowrap">疼痛智能管家主要体现在几个方面，包括：疼痛护理...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_5.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image039.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">疼痛智能管家——指数定义</h4>
+                                    <p class="ui-nowrap">人体组织生物阻抗值会随着组织细胞的健康状况而发生改变...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info2_6.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image041.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">痛小白使用常见问题</h4>
+                                    <p class="ui-nowrap">1.以下人群不适合使用该产品...</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="sub3" class="demo-item undis">
+                    <div class="demo-block">
+                        <ul class="ui-list ui-border-tb">
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info3_1.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image042.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">电竞爱好者的伤病解决方案</h4>
+                                    <p class="ui-nowrap">杰明今年32岁了，是李先生的发小，早年曾一...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info3_2.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image043.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">如何快速消除运动过度带来的肌肉酸痛</h4>
+                                    <p class="ui-nowrap">如何快速消除运动过度带来的肌肉酸痛？</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info3_3.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image045.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">淘宝店主的颈椎病缓解经历</h4>
+                                    <p class="ui-nowrap">李先生，一个白手起家的淘宝店主。由于需要长时间的面对电脑...</p>
+                                </div>
+                            </li>
+                            <li class="ui-border-t" onclick="javascript:window.location.href='info3_4.html'">
+                                <div class="ui-avatar">
+                                    <span style="background-image:url(images/image047.png)"></span>
+                                </div>
+                                <div class="ui-list-info">
+                                    <h4 class="ui-nowrap">王老伯的关节炎终于不痛啦</h4>
+                                    <p class="ui-nowrap">真人分享—王老伯的关节炎终于不痛啦</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        <!-- /.ui-container-->
+        <script>
+            $('.ui-list li,.ui-tiled li').click(function() {
+                                                if ($(this).data('href')) {
+                                                location.href = $(this).data('href');
+                                                }
+                                                });
+                                                $('.ui-header .ui-btn').click(function() {
+                                                                              location.href = 'index.html';
+                                                                              });
+            </script>
+    </body>
+    
+</html>

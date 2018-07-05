@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>treatmentLog</string>
+			<key>label_Text</key>
+			<string>疼痛分析</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>profile</string>
+			<key>label_Text</key>
+			<string>我的资料</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>buzzer</string>
+			<key>label_Text</key>
+			<string>声音报警设置</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>imageName</key>
+			<string>connectGuide</string>
+			<key>label_Text</key>
+			<string>设备连接指南</string>
+		</dict>
+		<dict>
+			<key>imageName</key>
+			<string>about</string>
+			<key>label_Text</key>
+			<string>关于</string>
+		</dict>
+	</array>
+</array>
+</plist>
