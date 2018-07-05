@@ -214,9 +214,19 @@
     [self.view addSubview:mine_ProfileTableView];
     
     saveButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, horizontalSpace4, verticalSpace3)];
-    [saveButton setImage:[UIImage imageNamed:@"saveButton"] forState:UIControlStateNormal];
-    [saveButton setImage:[UIImage imageNamed:@"saveButtonSelected"] forState:UIControlStateSelected];
-    [saveButton setImage:[UIImage imageNamed:@"saveButtonDisable"] forState:UIControlStateDisabled];
+    
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [saveButton setImage:[UIImage imageNamed:@"saveButton"] forState:UIControlStateNormal];
+        [saveButton setImage:[UIImage imageNamed:@"saveButtonSelected"] forState:UIControlStateSelected];
+        [saveButton setImage:[UIImage imageNamed:@"saveButtonDisable"] forState:UIControlStateDisabled];
+    }
+    else{
+        [saveButton setImage:[UIImage imageNamed:@"saveButtonEng"] forState:UIControlStateNormal];
+        [saveButton setImage:[UIImage imageNamed:@"saveButtonSelectedEng"] forState:UIControlStateSelected];
+        [saveButton setImage:[UIImage imageNamed:@"saveButtonDisableEng"] forState:UIControlStateDisabled];
+    }
+
+    
     [saveButton setEnabled:NO];
     saveButton.center = CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT - verticalSpace4 - verticalSpace3 * 0.5);
     [saveButton addTarget:self action:@selector(saveButtonAction:) forControlEvents:UIControlEventTouchUpInside];

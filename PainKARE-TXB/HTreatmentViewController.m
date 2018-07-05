@@ -175,15 +175,33 @@
     CGFloat treatmentButtonWidth = [HAppUIModel baseWidthChangeLength:329 baceWidthWithModel:ApplicationDelegate.myAppScreenModel];
     treatmentStartButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, treatmentButtonWidth, treatmentButtonWidth * 52 / 329)];
     treatmentStartButton.center = CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT * 0.80 + (SCREEN_HEIGHT * 0.20 - TABBAR_HEIGHT) * 0.5);
-    [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStart"] forState:UIControlStateNormal];
-    [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelected"] forState:UIControlStateHighlighted];
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStart"] forState:UIControlStateNormal];
+        [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelected"] forState:UIControlStateHighlighted];
+    }
+    else{
+        [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartEng"] forState:UIControlStateNormal];
+        [treatmentStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelectedEng"] forState:UIControlStateHighlighted];
+    }
+    
+
+    
+    
     [treatmentStartButton addTarget:self action:@selector(treatmentStartButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:treatmentStartButton];
     
     treatmentStopButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, treatmentButtonWidth, treatmentButtonWidth * 52 / 329)];
     treatmentStopButton.center = CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT * 0.80 + (SCREEN_HEIGHT * 0.20 - TABBAR_HEIGHT) * 0.5);
-    [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStop"] forState:UIControlStateNormal];
-    [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStopSelected"] forState:UIControlStateHighlighted];
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStop"] forState:UIControlStateNormal];
+        [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStopSelected"] forState:UIControlStateHighlighted];
+    }
+    else{
+        [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStopEng"] forState:UIControlStateNormal];
+        [treatmentStopButton setBackgroundImage:[UIImage imageNamed:@"treatmentStopSelectedEng"] forState:UIControlStateHighlighted];
+    }
+    
+
     [treatmentStopButton addTarget:self action:@selector(treatmentStopButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:treatmentStopButton];
     treatmentStopButton.hidden = YES;

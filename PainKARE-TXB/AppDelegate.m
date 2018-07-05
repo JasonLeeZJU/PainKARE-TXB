@@ -1842,7 +1842,15 @@
     
     UIButton *feedbackButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, horizontalSpace7, verticalSpace6)];
     feedbackButton.center = CGPointMake(SCREEN_WIDTH * 0.5, verticalSpace4 + verticalSpace1 + verticalSpace7 + verticalSpace6 * 0.5);
-    [feedbackButton setImage:[UIImage imageNamed:@"feedback"] forState:UIControlStateNormal];
+    
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [feedbackButton setImage:[UIImage imageNamed:@"feedback"] forState:UIControlStateNormal];
+    }
+    else{
+        [feedbackButton setImage:[UIImage imageNamed:@"feedbackEng"] forState:UIControlStateNormal];
+    }
+    
+    
     [feedbackButton setImage:[UIImage imageNamed:@"feedbackSelected"] forState:UIControlStateSelected];
     [feedbackButton addTarget:self action:@selector(feedbackButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [appFeedBackBackgroundView addSubview:feedbackButton];

@@ -219,7 +219,16 @@
     // ————————————————————————————————————————————————————————————————————————————————
     // —————————————————————————————— 分析结果 ——————————————————————————————————————————————
     resultButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, horizontalSpaceV, verticalSpaceIV)];
-    [resultButton setImage:[UIImage imageNamed:@"report"] forState:UIControlStateNormal];
+    
+    
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [resultButton setImage:[UIImage imageNamed:@"report"] forState:UIControlStateNormal];
+    }
+    else{
+        [resultButton setImage:[UIImage imageNamed:@"reportEng"] forState:UIControlStateNormal];
+    }
+    
+    
     resultButton.center = CGPointMake(horizontalSpaceI + horizontalSpaceV * 0.5, (topScrollViewHeight + verticalSpaceIII + verticalSpaceII + verticalSpaceIII + chartViewHeight + topViewHeight) * 0.5);
     [resultButton addTarget:self action:@selector(resultButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [topView addSubview:resultButton];

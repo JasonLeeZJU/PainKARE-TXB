@@ -118,7 +118,6 @@
 		273D6D0F1FECE081001A3120 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		273D6D101FECE081001A3120 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		273D6D181FECE081001A3120 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		273D6D1D1FECE081001A3120 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273D6D1E1FECE081001A3120 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		273D6D241FECE081001A3120 /* PainKARE-TXBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PainKARE-TXBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		273D6D281FECE081001A3120 /* PainKARE_TXBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PainKARE_TXBTests.m; sourceTree = "<group>"; };
@@ -160,6 +159,7 @@
 		27ABC6EA20ECB05400E9D466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/protocolList.plist; sourceTree = "<group>"; };
 		27ABC6EC20ECB05500E9D466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/protocolList.plist; sourceTree = "<group>"; };
 		27ABC6ED20ECB05700E9D466 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/protocolList.plist"; sourceTree = "<group>"; };
+		27ABC6F120EDE57000E9D466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		27BD488E1FFF61570091FE58 /* HWhirlingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWhirlingView.h; sourceTree = "<group>"; };
 		27BD488F1FFF61570091FE58 /* HWhirlingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWhirlingView.m; sourceTree = "<group>"; };
 		27BD48911FFF868C0091FE58 /* HMine_TreatmentLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMine_TreatmentLogViewController.h; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 				27BD48971FFF86D90091FE58 /* HMine_AboutViewController.h */,
 				27BD48981FFF86D90091FE58 /* HMine_AboutViewController.m */,
 				273D6D181FECE081001A3120 /* Assets.xcassets */,
-				273D6D1D1FECE081001A3120 /* Info.plist */,
+				27ABC6F220EDE57000E9D466 /* Info.plist */,
 				273D6D1E1FECE081001A3120 /* main.m */,
 			);
 			path = "PainKARE-TXB";
@@ -755,6 +755,14 @@
 				27ABC6ED20ECB05700E9D466 /* zh-Hans */,
 			);
 			name = protocolList.plist;
+			sourceTree = "<group>";
+		};
+		27ABC6F220EDE57000E9D466 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27ABC6F120EDE57000E9D466 /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -110,7 +110,13 @@
     
     UIImageView *connectAction1ImageView = [UIImageView new];
     connectAction1ImageView.frame = CGRectMake(0, 0, horizontalSpace1, verticalSpace3);
-    connectAction1ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide1"];
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        connectAction1ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide1"];
+    }
+    else{
+        connectAction1ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide1Eng"];
+    }
+    
     connectAction1ImageView.center = CGPointMake(SCREEN_WIDTH * 0.5, verticalSpace2 + generalTitleLabelSize.height + verticalSpace4 + generalTextLabelFrame.size.height + verticalSpace1 + connectAction1LabelSize.height + verticalSpace5 + verticalSpace3 * 0.5);
     [bdView addSubview:connectAction1ImageView];
     
@@ -126,7 +132,15 @@
     
     UIImageView *connectAction2ImageView = [UIImageView new];
     connectAction2ImageView.frame = CGRectMake(0, 0, horizontalSpace1, verticalSpace3);
-    connectAction2ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide2"];
+    
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        connectAction2ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide2"];
+    }
+    else{
+        connectAction2ImageView.image = [UIImage imageNamed:@"mine_ConnectGuide2Eng"];
+    }
+    
+    
     connectAction2ImageView.center = CGPointMake(SCREEN_WIDTH * 0.5, verticalSpace2 + generalTitleLabelSize.height + verticalSpace4 + generalTextLabelFrame.size.height + verticalSpace1 + connectAction1LabelSize.height + verticalSpace5 + verticalSpace3 + verticalSpace5 + connectAction2LabelSize.height + verticalSpace5 + verticalSpace3 * 0.5);
     [bdView addSubview:connectAction2ImageView];
     

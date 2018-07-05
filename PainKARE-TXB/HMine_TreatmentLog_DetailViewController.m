@@ -277,8 +277,16 @@
     if (indexPath.section == 1 && indexPath.row == 1) {
         
         UIButton *treatmentAgainButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, horizontalSpace7, verticalSpace9)];
-        [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgain"] forState:UIControlStateNormal];
-        [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgainSelected"] forState:UIControlStateSelected];
+        if ([HAppUIModel UIViewIsChinese] == YES){
+            [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgain"] forState:UIControlStateNormal];
+            [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgainSelected"] forState:UIControlStateSelected];
+        }
+        else{
+            [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgainEng"] forState:UIControlStateNormal];
+            [treatmentAgainButton setImage:[UIImage imageNamed:@"treatmentAgainSelectedEng"] forState:UIControlStateSelected];
+        }
+
+        
         treatmentAgainButton.center = CGPointMake(SCREEN_WIDTH * 0.5, verticalSpace5 * 0.5);
         [cell.contentView addSubview:treatmentAgainButton];
         [treatmentAgainButton addTarget:self action:@selector(treatmentAgainButtonAction) forControlEvents:UIControlEventTouchUpInside];

@@ -181,9 +181,18 @@
     
     protocolStartButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, treatmentButtonWidth, treatmentButtonWidth * 52 / 329)];
     protocolStartButton.center = CGPointMake(SCREEN_WIDTH * 0.5, scrollViewBackgroundHeight + topSpaceIV + (treatmentButtonWidth * 52 / 329) * 0.5);
-    [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStart"] forState:UIControlStateNormal];
-    [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelected"] forState:UIControlStateHighlighted];
-    [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentDisable"] forState:UIControlStateDisabled];
+    if ([HAppUIModel UIViewIsChinese] == YES){
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStart"] forState:UIControlStateNormal];
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelected"] forState:UIControlStateHighlighted];
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentDisable"] forState:UIControlStateDisabled];
+    }
+    else{
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartEng"] forState:UIControlStateNormal];
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentStartSelectedEng"] forState:UIControlStateHighlighted];
+        [protocolStartButton setBackgroundImage:[UIImage imageNamed:@"treatmentDisableEng"] forState:UIControlStateDisabled];
+    }
+
+    
     [protocolStartButton addTarget:self action:@selector(protocolStartButton:) forControlEvents:UIControlEventTouchUpInside];
     [protocolStartButton setEnabled:NO];
     
